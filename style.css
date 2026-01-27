@@ -2,14 +2,14 @@
    Base Styles & Variables
 ========================= */
 :root {
-  --bg: #000000;
-  --text: #0c0d0f;
+--bg: #0f172a;
+  --text: #e2e8f0;
   --muted: #94a3b8;
-  --accent: #ee2222;
-  --card: #f8fafe;
+  --accent: #22d3ee;
+  --card: #111827;
   --white: #ffffff;
-  --red: #fd0707;
-  --red: #cc000e;
+  --blue: #0a45f4;
+  --dark-blue: #0088cc;
 }
 
 * { box-sizing: border-box; }
