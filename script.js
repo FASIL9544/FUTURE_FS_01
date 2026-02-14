@@ -1,7 +1,7 @@
-// Dynamic year in footer
+
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Mobile nav toggle
+
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.getElementById("nav-menu");
 if (navToggle) {
@@ -11,7 +11,7 @@ if (navToggle) {
   });
 }
 
-// Highlight active nav link automatically
+
 const currentPage = window.location.pathname.split("/").pop();
 const navLinks = document.querySelectorAll(".nav-menu a");
 
@@ -21,7 +21,7 @@ navLinks.forEach(link => {
   }
 });
 
-// Contact form handling
+
 const form = document.getElementById("contact-form");
 const statusEl = document.getElementById("form-status");
 
@@ -48,7 +48,7 @@ if (form) {
 
     statusEl.textContent = "Sending...";
     try {
-      // Netlify fallback submission
+      
       const netlifyData = new URLSearchParams();
       netlifyData.append("form-name", "contact");
       netlifyData.append("name", name);
